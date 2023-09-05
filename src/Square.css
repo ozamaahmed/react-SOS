@@ -1,0 +1,22 @@
+/* Square.css */
+/* Square.css */
+
+.square {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  display: inline-flex; /* Use flex to center content vertically and horizontally */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  margin: 2px;
+  border: 1px solid #000;
+  transition: transform 0.2s, border-width 0.2s;
+  font-size: 20px; /* Adjust font size to make the symbols bigger */
+  font-weight: bold; /* Make the symbols bold */
+}
+
+/* Add a hover effect */
+.square:hover {
+  transform: scale(1.05);
+  border-width: 2px;
+}
